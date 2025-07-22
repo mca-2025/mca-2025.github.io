@@ -125,7 +125,7 @@
                 <p>Ms. Chimei received her Master’s degree in Early Childhood and Childhood Education from New York University, has earned the Early Childhood Teacher Credential from the American Montessori Society, and also holds an Illinois Professional Educator License and Learning Behavior Specialist endorsement. Her interests include cooking, baking, gardening, and reading; she has incorporated her love of cooking and gardening into classroom activities. These activities have provided our children with opportunities to connect with nature and explore science in a fun and engaging way. Ms. Chimei is married and has a 20-year-old studying at Loyola University and a 15-year-old in high school.</p>`
             },
             karima: {
-                title: "Karmia Zidani (Red Room Teacher and Kindergarten Enrichment Teacher)",
+                title: "Karima Zidani (Red Room Teacher and Kindergarten Enrichment Teacher)",
                 img: "img/Ms.karima.jpg",
                 content: `<p>Ms. Karima is a kind and creative teacher in our Red Room. She is also our kindergarten enrichment teacher. She is beyond thrilled to be working with your child and honored to be part of the MCA team.  Ms. Karima has been active in Early Childhood education for over 20 years.  Through her experiences, Ms. Karima has learned the absolute importance of building empathy, encouraging independent thought, increasing social skills, and the power of positive reinforcement, all of which have influenced her to become the person she is today.  She looks forward to all the relationships and memories she will make with the children, families, and the staff of MCA.</p>`
             },
