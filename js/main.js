@@ -89,22 +89,22 @@
                 content: `<p>Ms. Amy joined MCA in 2015. She has a Bachelors of Science in Child Development with an emphasis in parent/infant specialty and leadership studies. She also has a Montessori paraprofessional certificate from Seton Montessori. She enjoys attending her neighborhood “music in the park” events, drinking coffee and eating at local restaurants. Ms. Amy enjoys seeing the infants explore a nurturing and caring environment and watching them learn, grow, and develop into their own person.</p>`
             },
             eva: {
-                title: "Eva Rodriguez (Green Room Student Aide)",
+                title: "Eva Rodriguez (Assistant Teacher)",
                 img: "img/Ms.eva.jpg",
                 content: `<p>Ms. Eva is a Senior at Willowbrook High School, She is currently taking the preschool class which is what led her to MCA.. She enjoys spending time with her family and golfing on the weekends with her dad. In her free time, she likes to look for new recipes to bake. One of her all time favorites to bake is banana bread. She is excited to keep sharing recipes with our friends this fall. She enjoys working in the Green Room and being able to watch them grow during their time with us!</p>`
             },
             maddie: {
-                title: "Maddie Kos (Student Aide)",
+                title: "Maddie Kos (Assistant Teacher)",
                 img: "img/Ms.maddie.jpg",
                 content: `<p>Ms. Maddie is currently a junior at Willowbrook High School. She has completed several Child Development courses in addition to working with the Willowbrook Little Warriors Preschool as a teacher’s assistant. Ms. Maddie is a dedicated cheerleader for her high school. During her cheer off season, she continues her skills with tumbling and working at multiple kids’ cheerleading camps. We are fortunate to have Ms. Maddie share her enthusiasm and energy at MCA.</p>`
             },
             shea: {
-                title: "Shea Downer (Student Aide)",
+                title: "Shea Downer (Assistant Teacher)",
                 img: "img/Ms.shea.jpg",
                 content: `<p>Ms. Shea is a MCA alum, whose Montessori journey has come full circle! She is currently a junior at Willowbrook High School. Ms. Shea is a dedicated Boy Scout, working towards her Eagle rank. Ms. Shea has extensive experience as a staff member for National Youth Leadership Training and as a camp counselor at Camp Hiawatha. In addition, she is actively involved at Willowbrook High School; she plays the cello and performs in theatre productions. We are incredibly happy to have our former MCA students return to teach and share their skills and talents with our next MCA generation!</p>`
             },
             julie: {
-                title: "Ms. Julie (Assistant Teacher)",
+                title: "Julie Bruder (Assistant Teacher)",
                 img: "img/Ms.julie.jpg",
                 content: `<p>Ms. Julie is primarily our Nido and Purple Room, however, you will also see her also helping our other classrooms as well. She holds an associates degree in early childhood education and has worked at MCA since 2017 . Ms. Julie is an incredibly kind and nurturing teacher who loves working with all of our students and watching them grow and learn. Ms. Julie is a cat mom and has a very soft spot for her two cats and her two adult children. During her free time she enjoys spending time with her family, going on walks, reading, and traveling.</p>`
             },
@@ -136,12 +136,12 @@
                 <p>After LorJon closed its doors in 2018, I started my own tutoring business. With the help of my almost two decades of Montessori teaching experience and skills, I was able to continue to help educate and provide strong academic skills, critical thinking abilities, and foster a love of learning in my private tutoring students. When tutoring, I was fortunate to work with children between the ages of 3-13 years old, some with learning disabilities, IEP, and on the Autism Spectrum. Regardless of a child’s academic level, I am dedicated to seeing my students thrive and succeed, not just academically but also socially and emotionally! This is why I am delighted for the opportunity to join MCA, and I am thrilled to share my passion for Early Childhood Education and my dedication to making a positive impact on the lives of my students!</p>`
             },
             mary: {
-                title: "Mary Elizabeth Cupano (Kindergarten Enrichment Coordinator and 3-6 Music Teacher)",
+                title: "Mary Elizabeth Cupano (Kindergarten Enrichment Coordinator & Music Teacher)",
                 img: "img/Ms.mary.jpg",
                 content: `<p>Ms. Mary Elizabeth is our Kindergarten Enrichment Coordinator and 3-6 Music Teacher. She holds an early childhood Montessori teaching credential from MMTTC in Evanston and a music degree from the University of the Philippines. Ms. Mary Elizabeth has been part of MCA for 19 years — 5 years as the Red Room Directress, 3 years teaching music, and 12 years leading the Kindergarten Enrichment class. With over 25 years of experience in Montessori education, she is passionate about inspiring a love of learning and music in young children. In her spare time, Mary Elizabeth enjoys staying active by playing tennis and pickleball, and finds joy in playing the piano.</p>`
             },
             maryc: {
-                title: "Mary Cyr (Yellow Room Assistant Teacher,  SMI Student and Infant/Toddler Music Teacher) ",
+                title: "Mary Cyr (Yellow Room Assistant Teacher & Music Teacher) ",
                 img: "img/Ms.maryc.jpg",
                 content: `<p>Ms. Mary joins MCA after working at a corporate Montessori school for one year. She is excited to be a part of our close-knit Montessori community! She studied music at Wheaton College where she played the French horn and taught beginner group piano classes. Ms. Mary’s favorite thing about teaching is watching children experience “lightbulb” moments: when things click for the first time and spark joy. In her free time, she enjoys singing with her friends in a choir, listening to nerdy podcasts, playing Minecraft and Pokémon Go, and spending quality time with her roommates. This fall Ms. Mary is going to Seton Montessori Institute to obtain her Primary Montessori Credential. </p>`
             },
