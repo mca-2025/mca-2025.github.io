@@ -178,6 +178,20 @@
                 modal.show();
             }
         });
+
+        // Gallery Modal Carousel Logic
+        $('.gallery-thumb').on('click', function () {
+            var index = parseInt($(this).data('gallery-index'), 10) || 0;
+            var $carousel = $('#galleryCarousel');
+            var modal = new bootstrap.Modal(document.getElementById('galleryModal'));
+            modal.show();
+            // Set carousel to correct slide after modal is shown
+            $carousel.one('shown.bs.modal', function () {
+                $carousel.carousel(index);
+            });
+            // If already shown, just go to the slide
+            $carousel.carousel(index);
+        });
     });
 
 
