@@ -665,11 +665,26 @@ h6,
     background-size: cover;
 }
 
+.footer .footer-galary-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: dotted;
+    border-color: var(--bs-primary);
+    margin: 0 auto;
+}
+
 .footer .footer-galary-img img {
     width: 100%;
-    border-style: dotted; 
-    border-color: var(--bs-primary);
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
     transition: 0.5s;
+    display: block;
 }
 
 .footer .footer-galary-img img:hover {
@@ -680,3 +695,8 @@ h6,
     color: var(--bs-secondary) !important;
 }
 /*** Footer End ***/
+
+/* Remove background image for Philosophy section in about.html */
+.philosophy-section {
+    background: linear-gradient(rgba(184, 227, 241, 0.8), rgba(184, 227, 241, 0.8));
+}
