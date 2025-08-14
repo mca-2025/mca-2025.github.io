@@ -249,8 +249,12 @@ h6,
     border-radius: 10px;
 }
 
+.video.philosophy{
+    background: linear-gradient(rgba(184, 227, 241, 0.1), rgba(184, 227, 241, 0.1)), url(../img/about2.jpg);
+}
 .video .btn-play {
     position: absolute;
+    
     z-index: 3;
     top: 50%;
     left: 50%;
