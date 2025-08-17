@@ -609,6 +609,10 @@ h6,
     opacity: 1;
 }
 
+.team .team-item .team-content {
+    height: 100%;
+}
+
 .team .team-item .team-content,
 .team .team-item .team-content h4,
 .team .team-item .team-content p {
@@ -618,6 +622,7 @@ h6,
 .team .team-item:hover .team-content {
     background: var(--bs-primary) !important;
     border-radius: 0 0 10px 10px;
+    height: 100%;
 }
 
 .team .team-item:hover .team-content h4 {

@@ -114,7 +114,7 @@
                 content: `<p>My name is Jen Priske, I recently became the Head of School in June 2025. Prior to my new role I was the 3 - 6 year old Directress for the Yellow Room and the 3-6 year old coordinator. I have worked at MCA for 18 years. Each year has brought new joys and experiences to my life. I believe in approaching each child as an individual. Each child has specific needs and abilities and I like to give them opportunities to grow at their own pace while having tons of fun! A little about myself, I graduated from Monmouth College in 2013, GO SCOTS! I also completed my 3 - 6 year old Montessori certification from Seton Montessori Institute in 2017. I especially enjoy spending time with my daughter Chloe, who is almost 3 years old, and my husband Dan. I like binge watching shows, reading, getting my nails done, and spending time with my friends and family.</p>`
             },
             joyce: {
-                title: "Joyce Teng (Yellow Room Afternoon Directress) ",
+                title: "Joyce Teng (Yellow Room PM Directress) ",
                 img: "img/Ms.joyce.jpg",
                 content: `<p>Ms. Joyce is our Yellow Room’s afternoon lead teacher. Ms. Joyce has dedicated her passion for teaching Montessori at the 3 – 6 year olds level at M.C.A. since 1991. She received her bachelor’s degree in Taiwan and completed her Montessori Early Childhood certification from MMTTC (Midwest Montessori Teacher Training Center). Ms. Joyce’s personal interests include listening to music, doing arts and crafts, taking walks and spending time with family and friends.</p>`
             },
@@ -151,17 +151,17 @@
                 content: `<p>Hello, my name is Leslie Pedroza. I recently graduated from high school! I’ve taken preschool classes for about 4 years already. I’ve also enjoyed babysitting. I enjoy playing soccer through school and my free time. I’ve been playing soccer for about 8 years now. My favorite hobby is doing eternal and Natural flower bouquets! This fall I am going to College of DuPage for nursing! </p>`
             },
             sophia: {
-                title: "Sophia Bernero (3-6 Year Old Assistant Teacher)",
+                title: "Sophia Bernero (Assistant Teacher)",
                 img: "img/Ms.sophia.jpg",
                 content: `<p>Ms. Sophia is joining us after the arrival of her baby sister, Lainey, this past January. Having a new baby in the house has deepened her passion for caring for children. She is currently a student at Willowbrook High School and plans to pursue a career as an art teacher. Before joining us, Ms. Sophia gained valuable experience working as a hostess at a local restaurant and babysitting for many families in her neighborhood. She is eager to begin her journey here, observing the children grow and develop new friendships. Outside of the classroom, Ms. Sophia enjoys creating art, playing basketball, going for walks, and spending time with her siblings. She can't wait to meet all of our families!</p>`
             },
             chelsea: {
-                title: "Chelsea Pinto (3-6 year old assistant teacher)",
+                title: "Chelsea Pinto (Assistant teacher)",
                 img: "img/Ms.chelsea.jpg",
                 content: `<p>Ms. Chelsea is a junior in high school and has worked with 3-6 year old students for the past 3 years. She is currently taking Child Development courses and plans to be a children’s speech pathologist in the future. She has also worked with elementary aged children for the past 6 summers. She enjoys reading, crafts, and travel. She is excited about working at Montessori Children’s Academy and supporting all of the wonderful work that the teachers do! </p>`
             },
             christen: {
-                title: "Christen Campbell (3-6 year old Assistant Teacher)",
+                title: "Christen Campbell (Assistant Teacher)",
                 img: "img/Mr.christen.jpg",
                 content: `<p>Mr. Christen is a Red Room afternoon assistant teacher. He is pursuing his associate degree at COD. His hobbies include listening to music, watching movies and TV and hanging out with friends and family. He enjoys watching our children have fun when they play and learn. Mr. Christen is finding out what career will make him happy.</p>`
             }
