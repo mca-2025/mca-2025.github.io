@@ -67,7 +67,7 @@
     $("#videoModal").on("shown.bs.modal", function (e) {
       $("#video").attr(
         "src",
-        $videoSrc + "?autoplay=1&modestbranding=1&showinfo=0"
+        $videoSrc + "?autoplay=1&modestbranding=1&showinfo=0",
       );
     });
 
@@ -80,42 +80,58 @@
       lilly: {
         title: "Lilly Salazar (Nido Room Assistant Teacher)",
         img: "img/Ms.lilly.jpg",
-        content: `<p>Ms. Lilly started at MCA as an apprentice while she was a student at Willowbrook High School. She is currently enrolled at College of DuPage. During her off time she enjoys playing softball and coaching. She developed a passion for caring for infants and toddlers through babysitting her siblings. Ms. Lilly enjoys working with and reading stories to our young students.</p>`,
+        content: `<p>Ms. Lilly has been a part of the MCA Nido team since 2024. She is entering her second year of college, where she is pursuing a degree in Elementary Education. She discovered her passion for working with young children through caring for her younger siblings and has continued to grow that passion through her work with infants and toddlers. Outside of the classroom, Ms. Lilly enjoys playing sports, working out, coaching and playing softball, and spending time outdoors. She especially loves reading stories and engaging in meaningful interactions with young children. </p>`,
       },
       amy: {
-        title: "Amy Dittmer (Nido Room Teacher)",
+        title: "Amy Dittmer (Infant / Toddler Teacher)",
         img: "img/Ms.amy.jpg",
-        content: `<p>Ms. Amy joined MCA in 2015. She has a Bachelors of Science in Child Development with an emphasis in parent/infant specialty and leadership studies. She also has a Montessori paraprofessional certificate from Seton Montessori. She enjoys attending her neighborhood “music in the park” events, drinking coffee and eating at local restaurants. Ms. Amy enjoys seeing the infants explore a nurturing and caring environment and watching them learn, grow, and develop into their own person.</p>`,
+        content: `<p>Ms. Amy joined MCA in 2015. She holds a Bachelor of Science in Child Development with an emphasis in Parent/Infant Specialty and Leadership Studies, as well as a Montessori Paraprofessional Certificate from the Seton Montessori Institute. Ms. Amy enjoys spending time at neighborhood “Music in the Park” events, discovering local restaurants, and enjoying a good cup of coffee. She especially loves working with our youngest learners and creating a warm, nurturing environment where they can explore, learn, grow, and develop their unique personalities.</p>`,
+      },
+      elynna: {
+        title: "Elyanna Aquino (Assistant Teacher)",
+        img: "img/Ms.elyanna.jpg",
+        content: `<p>Ms. Elyanna joined our Infant Room team in 2025, where she brings joy to our youngest learners. She has always had a passion for working with children and began building her experience while in high school, where she completed courses in preschool education and child development. She is currently majoring in Elementary Education at College of DuPage as she works toward her future career in education. She especially loves singing and enjoys creating fun music experiences for our infants. Ms. Elyanna is also a dedicated and hardworking individual who balances her work at MCA with helping at the Western DuPage Special Recreation Association (WDSRA). In her free time, she enjoys baking and shopping. We are so excited to have Ms. Elyanna continuing her journey with MCA and look forward to watching her grow as an educator! </p>`,
       },
       eva: {
         title: "Eva Rodriguez (Assistant Teacher)",
         img: "img/Ms.eva.jpg",
-        content: `<p>Ms. Eva is a Senior at Willowbrook High School, She is currently taking the preschool class which is what led her to MCA.. She enjoys spending time with her family and golfing on the weekends with her dad. In her free time, she likes to look for new recipes to bake. One of her all time favorites to bake is banana bread. She is excited to keep sharing recipes with our friends this fall. She enjoys working in the Green Room and being able to watch them grow during their time with us!</p>`,
+        content: `<p>Ms. Eva joined the MCA community in 2023 and is currently pursuing her nursing degree at Elmhurst University. Ms. Eva has a natural talent for art and creativity and loves bringing engaging, hands-on projects into the classroom. She enjoys creating meaningful experiences that encourage children to explore their creativity and express themselves.
+        </p><p>Outside of MCA, Ms. Eva enjoys spending time with her family, golfing with her dad, and trying new recipes and baking especially her favorite, banana bread. She looks forward to sharing her creativity and love of baking with the MCA community.
+        </p>`,
+      },
+      angela: {
+        title: "Angela Chiaramonte (Purple Room Directress)",
+        img: "img/Ms.angela.png",
+        content: `<p>Ms. Angela earned her degree in Human Services with a focus on Residential Child Care from the College of DuPage in 2005. She was introduced to Montessori philosophy in 2016, and it quickly connected with her passion for supporting young children’s growth, independence, and confidence. In 2022, she completed her Montessori Infant/Toddler Certification, continuing to expand her knowledge and commitment to the Montessori approach. Outside of the classroom, Ms. Angela enjoys spending time with her large Italian family, staying active through yoga and Zumba, and relaxing with two of her favorite treats—a good cup of coffee and chocolate. </p>`,
       },
       maddie: {
-        title: "Maddie Kos (Assistant Teacher)",
+        title: "Madison Kosior (Assistant Teacher)",
         img: "img/Ms.maddie.jpg",
-        content: `<p>Ms. Maddie is currently a junior at Willowbrook High School. She has completed several Child Development courses in addition to working with the Willowbrook Little Warriors Preschool as a teacher’s assistant. Ms. Maddie is a dedicated cheerleader for her high school. During her cheer off season, she continues her skills with tumbling and working at multiple kids’ cheerleading camps. We are fortunate to have Ms. Maddie share her enthusiasm and energy at MCA.</p>`,
+        content: `<p>Ms. Maddie is currently a senior at Willowbrook High School and is excited to begin her second year as an apprentice in the Nido Room. She has completed several Child Development courses in addition to working with the Willowbrook Little Warriors Preschool as a teacher’s assistant. Ms. Maddie is a dedicated cheerleader for her high school. During her cheer off-season, she continues to develop her skills through tumbling and working at multiple children’s cheerleading camps. We are fortunate to have Ms. Maddie return to MCA and share her enthusiasm, energy, and passion for working with children.</p>`,
       },
       shea: {
         title: "Shea Downer (Assistant Teacher)",
         img: "img/Ms.shea.jpg",
-        content: `<p>Ms. Shea is a MCA alum, whose Montessori journey has come full circle! She is currently a junior at Willowbrook High School. Ms. Shea is a dedicated Boy Scout, working towards her Eagle rank. Ms. Shea has extensive experience as a staff member for National Youth Leadership Training and as a camp counselor at Camp Hiawatha. In addition, she is actively involved at Willowbrook High School; she plays the cello and performs in theatre productions. We are incredibly happy to have our former MCA students return to teach and share their skills and talents with our next MCA generation!</p>`,
+        content: `<p>Ms. Shea is an MCA alum whose Montessori journey has come full circle! She joined the MCA team in 2025 and is now a senior at Willowbrook High School. She is excited to continue sharing her passion, skills, and experiences with the next generation of MCA students. Ms. Shea has earned her Eagle Scout rank and has gained extensive leadership experience through National Youth Leadership Training and serving as a camp counselor at Camp Hiawatha. She is also actively involved at Willowbrook High School, where she plays the cello and participates in theatre productions.</p>`,
       },
       julie: {
         title: "Julie Bruder (Assistant Teacher)",
         img: "img/Ms.julie.jpg",
-        content: `<p>Ms. Julie is primarily our Nido and Purple Room, however, you will also see her also helping our other classrooms as well. She holds an associates degree in early childhood education and has worked at MCA since 2017 . Ms. Julie is an incredibly kind and nurturing teacher who loves working with all of our students and watching them grow and learn. Ms. Julie is a cat mom and has a very soft spot for her two cats and her two adult children. During her free time she enjoys spending time with her family, going on walks, reading, and traveling.</p>`,
+        content: `<p>Ms. Julie holds an Associate's Degree in Early Childhood Education and has been a part of the MCA team since 2017. She is a kind, compassionate, and nurturing teacher who is passionate about supporting each child's growth and development. Ms. Julie loves building meaningful relationships with her students and finds great joy in watching them learn, gain confidence, and reach new milestones. Outside of the classroom, Ms. Julie is a devoted cat mom to her two beloved cats and enjoys spending time with her two adult children. In her free time, she loves going for walks, reading, traveling, and making memories with her family.</p>`,
       },
       isabella: {
         title: "Isabella Godinez (Assistant Teacher)",
         img: "img/Ms.isabella.jpg",
-        content: `<p>Isabella is a junior at York High School. She has completed coursework in Child Development as well as Relationships and Parenting, where she gained valuable knowledge and skills in childcare and family dynamics. Isabella has hands-on experience through babysitting and demonstrates dedication, responsibility, and enthusiasm when working with children. In addition to her academic and childcare interests, she is involved in cheerleading and modeling, and she values spending quality time with her family and friends.</p>`,
+        content: `<p>Ms. Isabella is a senior at York High School. She has completed coursework in Child Development as well as Relationships and Parenting, where she gained valuable knowledge and skills in childcare and family dynamics. Isabella has hands-on experience through babysitting and demonstrates dedication, responsibility, and enthusiasm when working with children. Outside of the classroom, Isabella enjoys cheerleading and she values spending quality time with her family and friends. She is excited to continue growing her experience while supporting and nurturing the children at MCA. </p>`,
       },
       jen: {
         title: "Jen Priske (Head of School)",
         img: "img/Ms.jen.jpg",
-        content: `<p>My name is Jen Priske, I recently became the Head of School in June 2025. Prior to my new role I was the 3 - 6 year old Directress for the Yellow Room and the 3-6 year old coordinator. I have worked at MCA for 18 years. Each year has brought new joys and experiences to my life. I believe in approaching each child as an individual. Each child has specific needs and abilities and I like to give them opportunities to grow at their own pace while having tons of fun! A little about myself, I graduated from Monmouth College in 2013, GO SCOTS! I also completed my 3 - 6 year old Montessori certification from Seton Montessori Institute in 2017. I especially enjoy spending time with my daughter Chloe, who is almost 3 years old, and my husband Dan. I like binge watching shows, reading, getting my nails done, and spending time with my friends and family.</p>`,
+        content: `<p>Ms. Jen has been part of the MCA community since 2007 and became Head of School in 2025. Prior to stepping into her leadership role, she served as the 3–6 Year Old Directress in the Yellow Room and as the 3–6 Year Old Coordinator.
+                  </p><p>Ms. Jen believes in approaching each child as an individual, recognizing that every child has unique needs, abilities, and interests. She is passionate about creating opportunities for children to grow at their own pace while fostering a joyful, engaging, and nurturing learning environment.
+                  </p><p>Ms. Jen graduated from Monmouth College in 2013 and completed her 3–6 Year Old Montessori certification through the Seton Montessori Institute in 2017. 
+                  </p><p>Outside of MCA, Ms. Jen enjoys spending time with her children, husband, and family. She loves binge-watching her favorite shows, reading, and making memories with friends and family.
+                  </p>`,
       },
       joyce: {
         title: "Joyce Teng (Yellow Room PM Directress) ",
@@ -126,21 +142,20 @@
         title:
           "Chimei Schneider (Yellow Room Directress and 3-6 year old Coordinator) ",
         img: "img/Ms.chimei.jpg",
-        content: `<p>Ms. Chimei is a dedicated and compassionate educator who has been working with young children in the Montessori environment for over 25 years. She has experience working with children with special needs in the therapeutic and Early Childhood Center. Her warm and supportive demeanor helps her students feel at ease and ready to learn. She is the Yellow Room Directress and our 3-6 year old coordinator. She has been at MCA for over 19 years.</p>
-                <p>Ms. Chimei received her Master’s degree in Early Childhood and Childhood Education from New York University, has earned the Early Childhood Teacher Credential from the American Montessori Society, and also holds an Illinois Professional Educator License and Learning Behavior Specialist endorsement. Her interests include cooking, baking, gardening, and reading; she has incorporated her love of cooking and gardening into classroom activities. These activities have provided our children with opportunities to connect with nature and explore science in a fun and engaging way. Ms. Chimei is married and has a 20-year-old studying at Loyola University and a 15-year-old in high school.</p>`,
+        content: `<p>Ms. Chimei is a dedicated and compassionate Montessori educator who has worked with young children for over 26+ years. 20 of those years as a lead directress at MCA. She has experience working with children with special needs in a therapeutic and Early Childhood Center. Her warm and supportive demeanor helps her students feel at ease and ready to learn.
+        </p><p>Ms. Chimei completed her Master’s degree in Early Childhood and Childhood Education from New York University and her Early Childhood Teacher Credential from the American Montessori Society. In addition, Ms. Chimei also holds an Illinois Professional Educator License and Learning Behavior Specialist endorsement.
+        </p>`,
       },
       karima: {
-        title:
-          "Karima Zidani (Red Room Teacher and Kindergarten Enrichment Teacher)",
+        title: "Karima Zidani (Yellow Room Teacher)",
         img: "img/Ms.karima.jpg",
-        content: `<p>Ms. Karima is a kind and creative teacher in our Red Room. She is also our kindergarten enrichment teacher. She is beyond thrilled to be working with your child and honored to be part of the MCA team.  Ms. Karima has been active in Early Childhood education for over 20 years.  Through her experiences, Ms. Karima has learned the absolute importance of building empathy, encouraging independent thought, increasing social skills, and the power of positive reinforcement, all of which have influenced her to become the person she is today.  She looks forward to all the relationships and memories she will make with the children, families, and the staff of MCA.</p>`,
+        content: `<p>Ms. Karima is a kind and creative teacher. She has taught at MCA since 2021. She is beyond thrilled to be working with your child and honored to be part of the MCA team. Ms. Karima has been an early childhood educator for 20+ years. Through her experiences, Ms. Karima has learned the absolute importance of building empathy, encouraging independent thought, increasing social skills, and the power of positive reinforcement, all of which have influenced her to become the person she is today. She looks forward to all the relationships and memories she will make with the children, families, and MCA team. </p>`,
       },
       ghing: {
         title:
           "Ghing Castillo (Red Room Directress and Kindergarten Enrichment Teacher)",
         img: "img/Ms.ghing.jpg",
-        content: `<p>My name is Perlita Castillo, but my students call me Ms. Ghing. I am the Red Room Directress.  I have three children (Camille, 27, Cali, 22, and Cameron, 14), and three grandchildren (Mila, Max, and Mya). Teaching was something I never thought I would take on as a profession. However, when I went to observe LorJon Montessori School for my daughter, Camille, who was then only 3 years old, the classroom opened a different sense of calling and belonging for me. As if it were my destiny to be there, to teach, guide, nurture, and learn alongside the children. After several weeks of volunteering at LorJon, I made a phone call to MMTTC inquiring about their Teacher Training schedule, and the rest was history.</p>
-                <p>After LorJon closed its doors in 2018, I started my own tutoring business. With the help of my almost two decades of Montessori teaching experience and skills, I was able to continue to help educate and provide strong academic skills, critical thinking abilities, and foster a love of learning in my private tutoring students. When tutoring, I was fortunate to work with children between the ages of 3-13 years old, some with learning disabilities, IEP, and on the Autism Spectrum. Regardless of a child’s academic level, I am dedicated to seeing my students thrive and succeed, not just academically but also socially and emotionally! This is why I am delighted for the opportunity to join MCA, and I am thrilled to share my passion for Early Childhood Education and my dedication to making a positive impact on the lives of my students!</p>`,
+        content: `<p>Ms. Ghing joined the MCA team in 2025. She holds a Bachelor of Business Administration in Management and received Montessori Early Childhood training through MMTTC. With more than 20+ years of Montessori experience, including 17 years as a Lead Directress at Lor-Jon Montessori School in Elmhurst. She also founded her own tutoring business in 2019, working with children ages 3–13, including students with diverse learning needs. She is passionate about creating a nurturing environment where children feel supported, confident, and inspired to learn. Outside of MCA, Ms. Ghing enjoys spending time with her three children and three grandchildren, reading, taking walks, traveling, and exploring new restaurants and places.</p>`,
       },
       mary: {
         title:
@@ -156,22 +171,42 @@
       leslie: {
         title: "Leslie Pedroza (Assistant Teacher)",
         img: "img/Ms.leslie.jpg",
-        content: `<p>Hello, my name is Leslie Pedroza. I recently graduated from high school! I’ve taken preschool classes for about 4 years already. I’ve also enjoyed babysitting. I enjoy playing soccer through school and my free time. I’ve been playing soccer for about 8 years now. My favorite hobby is doing eternal and Natural flower bouquets! This fall I am going to College of DuPage for nursing! </p>`,
+        content: `<p>Ms. Leslie has been a member of the MCA team since 2025. Ms. Leslie completed four years of preschool education coursework during high school and, this summer, earned her Assistant Teacher Montessori Early Childhood Fundamentals certificate. She is currently attending the College of DuPage, where she is pursuing a degree in Early Childhood Education. Ms. Leslie has played soccer for the past nine years. In her free time, she loves creating beautiful natural and everlasting flower bouquets. We are delighted to have Ms. Leslie as part of the MCA family and look forward to supporting her as she continues to grow and inspire young learners.</p>`,
       },
       sophia: {
         title: "Sophia Bernero (Assistant Teacher)",
         img: "img/Ms.sophia.jpg",
-        content: `<p>Ms. Sophia is joining us after the arrival of her baby sister, Lainey, this past January. Having a new baby in the house has deepened her passion for caring for children. She is currently a student at Willowbrook High School and plans to pursue a career as an art teacher. Before joining us, Ms. Sophia gained valuable experience working as a hostess at a local restaurant and babysitting for many families in her neighborhood. She is eager to begin her journey here, observing the children grow and develop new friendships. Outside of the classroom, Ms. Sophia enjoys creating art, playing basketball, going for walks, and spending time with her siblings. She can't wait to meet all of our families!</p>`,
+        content: `<p>Ms. Sophia joined the MCA team in the Red Room in 2025. She is currently studying Early Childhood Education at the College of DuPage and is passionate about supporting children’s development, building their confidence, and fostering a lifelong love of learning. She especially enjoys incorporating art and creativity into the classroom. Outside of MCA, Ms. Sophia enjoys creating art, playing basketball, going for walks, and spending time with her siblings. She looks forward to building meaningful relationships with MCA students and families.</p>`,
       },
       chelsea: {
         title: "Chelsea Pinto (Assistant teacher)",
         img: "img/Ms.chelsea.jpg",
-        content: `<p>Ms. Chelsea is a junior in high school and has worked with 3-6 year old students for the past 3 years. She is currently taking Child Development courses and plans to be a children’s speech pathologist in the future. She has also worked with elementary aged children for the past 6 summers. She enjoys reading, crafts, and travel. She is excited about working at Montessori Children’s Academy and supporting all of the wonderful work that the teachers do! </p>`,
+        content: `<p>Ms. Chelsea joined the MCA team in 2024, working with our 3–6 year old students. She is a senior at York High School and has completed all of the child development courses. This year, Ms. Chelsea was accepted into the Invite to Teach program. Ms. Chelsea’s college plans are to pursue a degree in children’s speech-language pathology. She has extensive experience working with elementary-aged children from her eight summers of childcare experience at Park View Kids Camp and volunteering at her church. She enjoys supporting children’s growth, learning from the classroom environment, and being part of the wonderful work our teachers do each day. Outside of the classroom, Ms. Chelsea enjoys reading, crafting, and traveling. She is excited to continue building connections with MCA students and families! </p>`,
       },
       christen: {
         title: "Christen Campbell (Assistant Teacher)",
         img: "img/Mr.christen.jpg",
         content: `<p>Mr. Christen is a Red Room afternoon assistant teacher. He is pursuing his associate degree at COD. His hobbies include listening to music, watching movies and TV and hanging out with friends and family. He enjoys watching our children have fun when they play and learn. Mr. Christen is finding out what career will make him happy.</p>`,
+      },
+      jasmine: {
+        title: "Jasmine Glowen (Nido Room Assistant Teacher)",
+        img: "img/Ms.jasmine.jpg",
+        content: `<p>Ms. Jasmine is a wonderful part of our MCA family. Her connection to MCA goes back several years, as she originally worked with us in our 0-3 community from 2019 to 2021 before returning to the MCA team in November 2025. We are so happy to have her back! Outside of the classroom, she enjoys trying new restaurants, building LEGO creations, and baking cupcakes and cake pops for friends and family. She is also a big Disney fan and loves visiting the Disney parks whenever she can! Ms. Jasmine truly enjoys working with children and is excited to continue growing, learning, and thriving as part of the MCA team!</p>`,
+      },
+      rae: {
+        title: "Rae Tamez (Green Room Assistant Teacher)",
+        img: "img/Ms.rae.jpg",
+        content: `<p>Ms. Rae has been part of our MCA team since 2023. She is currently a student at the College of DuPage, where she is majoring in Early Childhood Special Education. As the oldest of four siblings, Ms. Rae has spent much of her life caring for and helping with her younger siblings, an experience she believes helped shape her passion for working with children.</p><p>Ms. Rae enjoys reading and loves hands-on, sensorial art experiences such as pottery and crocheting. She especially enjoys bringing creativity and meaningful hands-on experiences in her work with children.</p><p>One of Ms. Rae's greatest passions is supporting children as they develop independence. She believes in giving children the time, space, encouragement, and opportunities to try things for themselves, build confidence in their abilities, and take an active role in their daily routines. She loves being part of their growth and celebrating all the little accomplishments along the way.</p>`,
+      },
+      erinn: {
+        title: "Erinn Schie (Green Room Teacher)",
+        img: "img/Ms.erinn.jpg",
+        content: `<p>Ms. Erinn began her Montessori journey a few years ago while working toward her degree in Early Childhood Education and has enjoyed growing alongside children, families, and fellow educators ever since.</p><p>In the classroom, Ms. Erinn enjoys incorporating nature, curiosity, creativity, and hands-on learning into meaningful experiences for the children. She looks forward to building relationships with each child and supporting them as they learn, explore, and grow.</p><p>Outside of school, Ms. Erinn enjoys cycling with friends, spending time outdoors, and planning her next adventure. She looks forward to a wonderful year together!</p>`,
+      },
+      daria: {
+        title: "Daria Lasota (Red Room Assistant Teacher)",
+        img: "img/Ms.daria.jpg",
+        content: `<p>Ms. Daria has earned her Associate of Arts degree and Early Childhood Education certificate from Triton College and is currently pursuing her bachelor's degree in Early Childhood Education at National Louis University.</p><p>With four years of experience working with children of various ages, Ms. Daria has worked as a teacher's assistant and Youth Development Specialist. She is passionate about education and creating a warm, engaging environment where children can learn and thrive.</p><p>Outside of MCA, Ms. Daria enjoys reading, crafting, and cooking. She is also fluent in Polish and enjoys connecting with children and families from diverse backgrounds.</p>`,
       },
     };
 
@@ -185,7 +220,7 @@
           .attr("alt", data.title);
         $("#teamAbstractModalContent").html(data.content);
         var modal = new bootstrap.Modal(
-          document.getElementById("teamAbstractModal")
+          document.getElementById("teamAbstractModal"),
         );
         modal.show();
       }
